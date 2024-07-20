@@ -1,0 +1,31 @@
+/*...............Home..................*/
+
+.title {
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    top: 300px;
+    left: 60%;
+    color: rgb(251, 64, 64);
+    text-shadow: black 0.1em 0.1em 0.1em; /* dar sombra a texto*/
+    font: 80px Times, serif;
+  }
+  
+  .btnProducts{
+    position: absolute;
+    top: 650px;
+    left: 45%;
+    text-size-adjust: 0.58;
+    font: 20px Times, serif;
+  }
+  
+  .subtitle {
+    position: absolute;
+    top: 500px;
+    left: 65%;
+    color: rgb(248, 231, 6);
+    text-shadow: black 0.1em 0.1em 0.3em;
+    text-size-adjust: 0.58;
+    font: 25px Times, serif;
+  }
+  
