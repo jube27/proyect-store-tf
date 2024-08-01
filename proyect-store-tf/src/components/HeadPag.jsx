@@ -15,15 +15,15 @@ return (
         <nav className="  flex content-center w-full ">
             <div className="content-center">
                 <figure>
-                    <img src="/src/assets/image/Logo.jpg" alt="" />
+                <Link to="/"><img src="/src/assets/images/Logo.jpg" alt="" /></Link>
                 </figure>
             </div>
             <div className="content-center font-mono ">
                 <ul className="inline-flex m-10 ">
-                    <li className="mr-20"><Link to="/">Inicio</Link></li>
-                    <li className="mr-20" ><Link to="/pagina2">Productos</Link></li>
-                    <li className="mr-20"><Link to="/pagina2">Sale</Link></li>
-                    <li className="mr-20"><Link to="/pagina2">Tiendas</Link></li>
+                    <li className="links"><Link to="/pagina2">Novedades</Link></li>
+                    <li className="links" ><Link to="/pagina2">Productos</Link></li>
+                    <li className="links"><Link to="/salepag">Sale</Link></li>
+                    <li className="links"><Link to="/pagina2">Tiendas</Link></li>
                 </ul>
             </div>
             <div className="container-fluid content-center ">

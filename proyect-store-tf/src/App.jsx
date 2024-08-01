@@ -5,6 +5,7 @@ import Home from './pages/Home.jsx'
 import Page2 from './pages/Page2.jsx'
 
 import './App.css'
+import Salepag from './pages/Salepag.jsx';
 
 
 
@@ -19,6 +20,7 @@ function App() {
 
             <Route index element={<Home />} />
             <Route path='/pagina2' element={<Page2 />} />
+            <Route path='/salepag' element={<Salepag />} />
             
         </Route>
       </Routes>

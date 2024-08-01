@@ -1,4 +1,16 @@
+/* -----------Head---------- */
 
+.links {
+  font-weight: 500;
+  color: #7b7b7c;
+  text-decoration: inherit;
+  margin-right: 5rem /* 80px */;
+}
+.links:hover {
+  color: #000000;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
 
 p {
     animation-duration: 5s;

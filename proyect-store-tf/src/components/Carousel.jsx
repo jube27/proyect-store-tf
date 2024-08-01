@@ -13,13 +13,13 @@ return(
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="/src/assets/images/imagen2.jpeg" className="d-block w-100 mx-auto" alt=""/>
+          <img src="/src/assets/images/imagen2.jpg" className="d-block w-100 mx-auto" alt=""/>
         </div>
         <div className="carousel-item">
-          <img src="/src/assets/images/imagen4.jpg" className="d-block w-100 mx-auto" alt=""/>
+          <img src="/src/assets/images/imagen3.webp" className="d-block w-100 mx-auto" alt=""/>
         </div>
         <div className="carousel-item">
-          <img src="/src/assets/images/imagen1.webp" className="d-block w-100 mx-auto" alt=""/>
+          <img src="/src/assets/images/imagen1.jpg" className="d-block w-100 mx-auto" alt=""/>
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

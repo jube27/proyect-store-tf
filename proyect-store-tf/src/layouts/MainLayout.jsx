@@ -11,8 +11,6 @@ function MainLayout() {
             <Outlet/>
            </div>
            <FooterPag/>
-           
-
         </div>
     );
 }

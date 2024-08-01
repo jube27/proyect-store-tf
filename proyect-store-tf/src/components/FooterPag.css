@@ -1,26 +1,29 @@
-footer {
-    
-    
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
+footer { 
+    background-color: #050505;
     color: #fff;
+    left: 0;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     padding: 10px;
-
   }
 
 
-
-
-a {
+  li {
     font-weight: 500;
-    color: #7171e6;
+    color: #fcfcfc;
     text-decoration: inherit;
   }
-  a:hover {
-    color: #f49f9f;
-    text-decoration: underline;
-    text-underline-offset: 8px;
+  li:hover {
+    color: #babfc5;
+    background-image:#ebebec ;
+
+  }
+
+  .seccionf {
+    font-size:20px;
+    color: rgb(215, 219, 219);
+    margin: 30px;
   }

@@ -1,0 +1,21 @@
+.sectionsale {
+    background-color: rgb(132, 132, 132);
+    left: 0;
+    width:100%;
+    height: 200px;
+    margin-top: 30px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.titlesale {
+    color: rgb(255, 255, 255);
+    font: 40px Times, serif;
+}
+
+.subtitlesale {
+    color: rgb(255, 255, 255);
+    font: 20px Times, serif;
+}

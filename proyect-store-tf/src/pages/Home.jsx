@@ -10,14 +10,18 @@ import '../App.css'
 
 const URL ="https://fakestoreapi.com"
 
+
+
 function Home() {
 
+    
     const [products, setProducts] = useState([])
     const [showProducts, setShowProducts] = useState(true)
     let [filas, setFilas] = useState([])
   
     const getProducts =async ()=>{
-        const response = await fetch(`${URL}/products?limit=10`)
+        const response = await fetch(`${URL}/products`)
+
         const data = await response.json()
   
         setProducts(data)
@@ -35,20 +39,20 @@ function Home() {
   
     return (
       
-      <section className='justify-center w-full border-2 border-red-500'>
+      <section className='justify-center w-full '>
 
         <Carousel/>
         <h1 className='title'>ENVÍOS A TODO EL PAÍS</h1>
         <h3 className='subtitle'>Mìnimo de compras $50.00</h3>
         
-        <div className="content-center max-w-screen-xl mx-auto rounded-xl shadow-md overflow-hidden  ">
+        <div className="content-center max-w-screen-xl mx-auto rounded-xl   ">
           <div className="row  md:flex ">
         
             {showProducts ? (
               
-              products && products.length > 0 && products.map(product =>(
+              products && products.length > 0  && products.map(product =>(
                 
-                <Product key={product.id} data ={product} />
+                <Product key={product.id} data ={product} /> 
       
               ))
             ) : (
